@@ -4,9 +4,17 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+//route::get(uri: '/',[HomeController::class,'index']);
+
+//route::get(uri: '/home',[HomeController::class,'index2']);//plant home
+
+Route::get('/', [HomeController::class, 'index'])->name('shop');
+Route::get('/userhome', [HomeController::class, 'index2']); // plant home
+
 
 Route::middleware([
     'auth:sanctum',
