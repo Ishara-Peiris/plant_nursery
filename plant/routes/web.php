@@ -27,3 +27,8 @@ Route::middleware([
 });
 
 route::get('/redirect',[HomeController::class,'redirect']);
+
+
+route::get('/stripe/{totalprice}',[HomeController::class,'stripe']);
+
+route::post('stripe/{totalprice}', [HomeController::class,'stripePost'])->name('stripe.post');
