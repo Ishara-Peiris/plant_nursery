@@ -12,7 +12,7 @@
               <span class="count bg-success"></span>
             </div>
             <div class="profile-name">
-              <h5 class="mb-0 font-weight-normal">Henry Klein</h5>
+              <h5 class="mb-0 font-weight-normal">Admin</h5>
               <span>Gold Member</span>
             </div>
           </div>
@@ -69,31 +69,30 @@
           <span class="menu-icon">
             <i class="mdi mdi-laptop"></i>
           </span>
-          <span class="menu-title">Basic UI Elements</span>
+          <span class="menu-title">Product</span>
           <i class="menu-arrow"></i>
         </a>
         <div class="collapse" id="ui-basic">
           <ul class="nav flex-column sub-menu">
-            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+            <li class="nav-item"> <a class="nav-link" href="{{url('view_product')}}">Add Product</a></li>
+            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Show Product</a></li>
           </ul>
         </div>
       </li>
       <li class="nav-item menu-items">
-        <a class="nav-link" href="pages/forms/basic_elements.html">
+        <a class="nav-link" href="{{url('view_catagory')}}">
           <span class="menu-icon">
             <i class="mdi mdi-playlist-play"></i>
           </span>
-          <span class="menu-title">Form Elements</span>
+          <span class="menu-title">Catagory</span>
         </a>
       </li>
       <li class="nav-item menu-items">
-        <a class="nav-link" href="pages/tables/basic-table.html">
+        <a class="nav-link" href="{{url('/subscribers')}}">
           <span class="menu-icon">
             <i class="mdi mdi-table-large"></i>
           </span>
-          <span class="menu-title">Tables</span>
+          <span class="menu-title">user management</span>
         </a>
       </li>
       <li class="nav-item menu-items">
@@ -109,7 +108,7 @@
           <span class="menu-icon">
             <i class="mdi mdi-contacts"></i>
           </span>
-          <span class="menu-title">Icons</span>
+          <span class="menu-title">User management</span>
         </a>
       </li>
       <li class="nav-item menu-items">

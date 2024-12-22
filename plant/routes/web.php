@@ -1,12 +1,24 @@
 <?php
+namespace App\Http\Controllers\Admin;
+//use App\Http\Controllers\Admin\NewsletterController;
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\AdminController;
+//use App\Http\Controllers\Admin\NewsletterController;
+//use app\Http\Controllers\Admin\NewsletterController;
+
+use App\Http\Controllers\BotManController;
 
 
-/*Route::get('/', function () {
+
+
+//cgptroutes
+Route::get('/dd', function () {
     return view('welcome');
-});*/
+});
 
 //route::get(uri: '/',[HomeController::class,'index']);
 
@@ -14,6 +26,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', [HomeController::class, 'index'])->name('shop');
 Route::get('/userhome', [HomeController::class, 'index2']); // plant home
+Route::get('/blog', [HomeController::class, 'blog'])->name('blog');//blogpage route
 
 
 Route::middleware([
@@ -27,3 +40,46 @@ Route::middleware([
 });
 
 route::get('/redirect',[HomeController::class,'redirect']);
+
+//discussion_routes
+Route::get('/discussion/create', [PostController::class, 'create'])->name('discussion.create');
+Route::post('/discussion/store', action: [PostController::class, 'store'])->name('discussion.store');
+Route::get('/forum', action: [PostController::class, 'index'])->name('forum');
+
+
+
+//handlenewletter
+Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('subscribe');
+
+
+
+//addproduct relted
+Route::get('/view_product', action: [AdminController::class, 'view_product'])->name('view_product');
+Route::post('/add_product',action: [AdminController::class,"add_product"])->name("add_product");
+
+//addcart_checklogin
+
+
+
+//chatbot
+Route::match(['get', 'post'], '/botman', 'App\Http\Controllers\BotManController@handle');
+
+
+//catagory
+route::get('/view_catagory',[AdminController::class,'view_catagory']);
+route::post('/add_catagory',[AdminController::class,'add_catagory']);
+route::get('/delete_catagory/{id}',[AdminController::class,'delete_catagory']);
+
+
+
+//newsletter
+//Route::get('admin/Subscribers','NewsletterController@subscribers');
+
+//Route::get('/subscribers', 'Admin\NewsletterController@subscribers');
+
+
+
+//product_detals
+route::get('/product_details/{id}',[HomeController::class,'product_details']);
+
+

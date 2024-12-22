@@ -9,13 +9,14 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Alazea - Gardening &amp; Landscaping HTML Template</title>
+    <title>Vijitha - Gardening &amp; Plants to your doorstep</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="home2/style.css">
+
 
 </head>
 
@@ -46,19 +47,7 @@
                             <!-- Top Header Content -->
                             <div class="top-header-meta d-flex">
                                 <!-- Language Dropdown -->
-                                <div class="language-dropdown">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle mr-30" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language</button>
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#">USA</a>
-                                            <a class="dropdown-item" href="#">UK</a>
-                                            <a class="dropdown-item" href="#">Bangla</a>
-                                            <a class="dropdown-item" href="#">Hindi</a>
-                                            <a class="dropdown-item" href="#">Spanish</a>
-                                            <a class="dropdown-item" href="#">Latin</a>
-                                        </div>
-                                    </div>
-                                </div>
+
                                 <!-- Login -->
                                 <div class="login">
                                     <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
@@ -82,7 +71,7 @@
                     <nav class="classy-navbar justify-content-between" id="alazeaNav">
 
                         <!-- Nav Brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
+                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo3.png" alt=""></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -172,10 +161,10 @@
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Plants exist in the weather and light rays that surround them</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.</p>
+                                <h2>Discover the Beauty of Green Living with Vijitha Plant Nursery</h2>
+                                <p>At Vijitha Plant Nursery, we believe in the harmony between nature and living spaces. Our collection of vibrant plants is carefully nurtured to bring life, beauty, and serenity into your home or garden. Discover the joy of greenery and create a thriving, sustainable environment with us</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href="{{ route('shop') }}" class="btn alazea-btn mr-30">SHOP NOW</a>
                                     <a href="#" class="btn alazea-btn active">CONTACT US</a>
                                 </div>
                             </div>
@@ -193,10 +182,10 @@
                         <div class="col-12">
                             <!-- Post Content -->
                             <div class="hero-slides-content text-center">
-                                <h2>Plants exist in the weather and light rays that surround them</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque ante nec ipsum iaculis, ac iaculis ipsum porttitor. Vivamus cursus nisl lectus, id mattis nisl lobortis eu. Duis diam augue, dapibus ut dolor at, mattis maximus dolor.</p>
+                                <h2>Bring Nature’s Touch to Your Life with Vijitha Plant Nursery</h2>
+                                <p>At Vijitha Plant Nursery, we believe in the harmony between nature and living spaces. Our collection of vibrant plants is carefully nurtured to bring life, beauty, and serenity into your home or garden. Discover the joy of greenery and create a thriving, sustainable environment with us</p>
                                 <div class="welcome-btn-group">
-                                    <a href="#" class="btn alazea-btn mr-30">GET STARTED</a>
+                                    <a href="{{ route('shop') }}" class="btn alazea-btn mr-30">SHOP NOW</a>
                                     <a href="#" class="btn alazea-btn active">CONTACT US</a>
                                 </div>
                             </div>
@@ -234,8 +223,8 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Plants Care</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+                                <h5>Plants Sale</h5>
+                                <p>Offers a wide variety of indoor and outdoor plants, seeds, and garden accessories for sale.</p>
                             </div>
                         </div>
 
@@ -247,8 +236,8 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Pressure Washing</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+                                <h5>Gardening Consultation</h5>
+                                <p>Provides expert advice on plant care, garden design, and pest management. Customers</p>
                             </div>
                         </div>
 
@@ -260,8 +249,8 @@
                             </div>
                             <!-- Content -->
                             <div class="service-content">
-                                <h5>Tree Service &amp; Trimming</h5>
-                                <p>In Aenean purus, pretium sito amet sapien denim moste consectet sedoni urna placerat sodales.service its.</p>
+                                <h5>Maintenance Services</h5>
+                                <p> Provides professional assistance in designing and maintaining gardens and landscapes for homes, offices, and public spaces.</p>
                             </div>
                         </div>
 
@@ -271,8 +260,7 @@
                 <div class="col-12 col-lg-6">
                     <div class="alazea-video-area bg-overlay mb-100">
                         <img src="img/bg-img/23.jpg" alt="">
-                        <a href="http://www.youtube.com/watch?v=7HKoqNJtMTQ" class="video-icon">
-                            <i class="fa fa-play" aria-hidden="true"></i>
+
                         </a>
                     </div>
                 </div>
@@ -291,13 +279,13 @@
                         <h2>ABOUT US</h2>
                         <p>We are leading in the plants service fields.</p>
                     </div>
-                    <p>Quisque orci quam, vulputate non commodo finibus, molestie ac ante. Duis in sceleri quesem. Nulla sit amet varius nunc. Maecenas dui, tempeu ullam corper in.</p>
+                    <p>As a leader in sustainable agriculture,Our goal is to nurture the land and support local communities, ensuring a better future for everyone involved</p>
 
                     <!-- Progress Bar Content Area -->
                     <div class="alazea-progress-bar mb-50">
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar">
-                            <p>Office plants</p>
+                            <p>Flower plants</p>
                             <div id="bar1" class="barfiller">
                                 <div class="tipWrap">
                                     <span class="tip"></span>
@@ -308,7 +296,7 @@
 
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar">
-                            <p>Field manager</p>
+                            <p>Fruit plants</p>
                             <div id="bar2" class="barfiller">
                                 <div class="tipWrap">
                                     <span class="tip"></span>
@@ -319,18 +307,18 @@
 
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar">
-                            <p>Landscape design</p>
+                            <p>Garden Care</p>
                             <div id="bar3" class="barfiller">
                                 <div class="tipWrap">
                                     <span class="tip"></span>
                                 </div>
-                                <span class="fill" data-percentage="85"></span>
+                                <span class="fill" data-percentage="60"></span>
                             </div>
                         </div>
 
                         <!-- Single Progress Bar -->
                         <div class="single_progress_bar">
-                            <p>Garden Care</p>
+                            <p>other Services</p>
                             <div id="bar4" class="barfiller">
                                 <div class="tipWrap">
                                     <span class="tip"></span>
@@ -349,7 +337,7 @@
                                 <div class="single-benefits-area">
                                     <img src="img/core-img/b1.png" alt="">
                                     <h5>Quality Products</h5>
-                                    <p>Intiam eu sagittis est, at commodo lacini libero. Praesent dignissim sed odio vel aliquam manta lagorn.</p>
+                                    <p>We focus on providing high-quality products that are reliable and meet your needs,ensure it’s the best it can be.</p>
                                 </div>
                             </div>
 
@@ -396,7 +384,8 @@
     <!-- ##### About Area End ##### -->
 
     <!-- ##### Portfolio Area Start ##### -->
-    <section class="alazea-portfolio-area section-padding-100-0">
+      <!-- ##### Portfolio Area Start ##### -->
+      <section class="alazea-portfolio-area section-padding-100-0">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -415,10 +404,10 @@
                     <div class="alazea-portfolio-filter">
                         <div class="portfolio-filter">
                             <button class="btn active" data-filter="*">All</button>
-                            <button class="btn" data-filter=".design">Coffee Design</button>
-                            <button class="btn" data-filter=".garden">Garden</button>
-                            <button class="btn" data-filter=".home-design">Home Design</button>
-                            <button class="btn" data-filter=".office-design">Office Design</button>
+                            <button class="btn" data-filter=".design">Flower plants</button>
+                            <button class="btn" data-filter=".garden">Fruit Plants</button>
+                            <button class="btn" data-filter=".home-design">Garden Design</button>
+                            <button class="btn" data-filter=".office-design">Gardening care</button>
                         </div>
                     </div>
                 </div>
@@ -429,13 +418,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design home-design wow fadeInUp" data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/16.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/h1.jpeg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/16.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
+                        <a href="img/bg-img/h1.jpeg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 1">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Green Home</h3>
+                                <h5>Plants</h5>
                             </div>
                         </a>
                     </div>
@@ -444,13 +433,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/17.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/h6.jpeg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/17.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
+                        <a href="img/bg-img/h6.jpeg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 2">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Quality</h3>
+                                <h5>Plants</h5>
                             </div>
                         </a>
                     </div>
@@ -459,13 +448,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden design wow fadeInUp" data-wow-delay="300ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/18.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/h2.jpg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/18.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
+                        <a href="img/bg-img/h2.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 3">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Fresh</h3>
+                                <h5>Vibes</h5>
                             </div>
                         </a>
                     </div>
@@ -474,13 +463,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden office-design wow fadeInUp" data-wow-delay="400ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/19.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/h3.jpeg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/19.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
+                        <a href="img/bg-img/h3.jpeg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 4">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Plant time</h3>
+                                <h5>Care tips</h5>
                             </div>
                         </a>
                     </div>
@@ -489,13 +478,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item design office-design wow fadeInUp" data-wow-delay="100ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/20.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/h4.jpeg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/20.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
+                        <a href="img/bg-img/h4.jpeg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 5">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Lowest</h3>
+                                <h5>Price</h5>
                             </div>
                         </a>
                     </div>
@@ -504,13 +493,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-sm-6 col-lg-3 single_portfolio_item garden wow fadeInUp" data-wow-delay="200ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/21.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/h7.jpeg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/21.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
+                        <a href="img/bg-img/h7.jpeg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 6">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>Self</h3>
+                                <h5>Sufficient</h5>
                             </div>
                         </a>
                     </div>
@@ -519,13 +508,13 @@
                 <!-- Single Portfolio Area -->
                 <div class="col-12 col-lg-6 single_portfolio_item home-design wow fadeInUp" data-wow-delay="300ms">
                     <!-- Portfolio Thumbnail -->
-                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/22.jpg);"></div>
+                    <div class="portfolio-thumbnail bg-img" style="background-image: url(img/bg-img/h8.jpeg);"></div>
                     <!-- Portfolio Hover Text -->
                     <div class="portfolio-hover-overlay">
-                        <a href="img/bg-img/22.jpg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
+                        <a href="img/bg-img/h8.jpeg" class="portfolio-img d-flex align-items-center justify-content-center" title="Portfolio 7">
                             <div class="port-hover-text">
-                                <h3>Minimal Flower Store</h3>
-                                <h5>Office Plants</h5>
+                                <h3>plant Store</h3>
+                                <h5>Bandaragama</h5>
                             </div>
                         </a>
                     </div>
@@ -534,6 +523,9 @@
             </div>
         </div>
     </section>
+    <!-- ##### Portfolio Area End ##### -->
+
+
     <!-- ##### Portfolio Area End ##### -->
 
     <!-- ##### Testimonial Area Start ##### -->
@@ -556,12 +548,11 @@
                                         <!-- Section Heading -->
                                         <div class="section-heading">
                                             <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
+                                            <p>Some kind words from clients about Vijiths Plants</p>
                                         </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Nick Jonas</h6>
-                                            <p>CEO of NAVATECH</p>
+                                        <p>Vijitha Plant Nursery is an absolute delight to work with. Their plants are of the highest quality, and their expert advice helped us create a stunning and thriving garden. They offer creative solutions to every challenge, and their customer service is truly outstanding. Thank you for transforming our outdoor space into a green paradise!</p>                                        <div class="testimonial-author-info">
+                                            <h6>Mr. Sanath Wickramasighe</h6>
+                                            <p>Panadura</p>
                                         </div>
                                     </div>
                                 </div>
@@ -581,12 +572,11 @@
                                         <!-- Section Heading -->
                                         <div class="section-heading">
                                             <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
+                                            <p>Some kind words from clients about vijitha Plants</p>
                                         </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Nazrul Islam</h6>
-                                            <p>CEO of NAVATECH</p>
+                                        <p>Working with Vijitha Plant Nursery has been a wonderful experience. Their wide variety of healthy plants and expert guidance made it easy to design the perfect garden for our home. The staff is friendly, knowledgeable, and always ready to help. We couldn’t be happier with the results—thank you for making our gardening dreams come true!</p>                                        <div class="testimonial-author-info">
+                                            <h6>Mr. Nimal Perea</h6>
+                                            <p>Bandaragama</p>
                                         </div>
                                     </div>
                                 </div>
@@ -606,12 +596,11 @@
                                         <!-- Section Heading -->
                                         <div class="section-heading">
                                             <h2>TESTIMONIAL</h2>
-                                            <p>Some kind words from clients about Alazea</p>
+                                            <p>Some kind words from clients about Vijitha Plants</p>
                                         </div>
-                                        <p>“Alazea is a pleasure to work with. Their ideas are creative, they came up with imaginative solutions to some tricky issues, their landscaping and planting contacts are equally excellent we have a beautiful but also manageable garden as a result. Thank you!”</p>
-                                        <div class="testimonial-author-info">
-                                            <h6>Mr. Jonas Nick</h6>
-                                            <p>CEO of NAVATECH</p>
+                                        <p>Working with Vijitha Plant Nursery has been a wonderful experience. Their wide variety of healthy plants and expert guidance made it easy to design the perfect garden for our home. The staff is friendly, knowledgeable, and always ready to help. We couldn’t be happier with the results—thank you for making our gardening dreams come true!</p>                                        <div class="testimonial-author-info">
+                                            <h6>Mr.Amitha Wijewardhana</h6>
+                                            <p>Colombo</p>
                                         </div>
                                     </div>
                                 </div>
@@ -645,7 +634,7 @@
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/9.jpg" alt=""></a>
+                            <a href="shop-details.html"><img src="img/bg-img/10.jpg" alt=""></a>
                             <!-- Product Tag -->
                             <div class="product-tag">
                                 <a href="#">Hot</a>
@@ -659,9 +648,9 @@
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
                             <a href="shop-details.html">
-                                <p>Cactus Flower</p>
+                                <p>Tulip Flower</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>Rs.1350</h6>
                         </div>
                     </div>
                 </div>
@@ -671,7 +660,7 @@
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="200ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/10.jpg" alt=""></a>
+                            <a href="shop-details.html"><img src="img/bg-img/12.jpg" alt=""></a>
                             <div class="product-meta d-flex">
                                 <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
                                 <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
@@ -681,9 +670,9 @@
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
                             <a href="shop-details.html">
-                                <p>Cactus Flower</p>
+                                <p>Indoor Plants</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>Rs.1675</h6>
                         </div>
                     </div>
                 </div>
@@ -693,7 +682,7 @@
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/11.jpg" alt=""></a>
+                            <a href="shop-details.html"><img src="img/bg-img/h21.jpg" alt=""></a>
                             <div class="product-meta d-flex">
                                 <a href="#" class="wishlist-btn"><i class="icon_heart_alt"></i></a>
                                 <a href="cart.html" class="add-to-cart-btn">Add to cart</a>
@@ -703,9 +692,9 @@
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
                             <a href="shop-details.html">
-                                <p>Cactus Flower</p>
+                                <p>Orchid Flower</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>Rs.499</h6>
                         </div>
                     </div>
                 </div>
@@ -715,7 +704,7 @@
                     <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="400ms">
                         <!-- Product Image -->
                         <div class="product-img">
-                            <a href="shop-details.html"><img src="img/bg-img/12.jpg" alt=""></a>
+                            <a href="shop-details.html"><img src="img/bg-img/h23.jpg" alt=""></a>
                             <!-- Product Tag -->
                             <div class="product-tag sale-tag">
                                 <a href="#">Hot</a>
@@ -729,9 +718,9 @@
                         <!-- Product Info -->
                         <div class="product-info mt-15 text-center">
                             <a href="shop-details.html">
-                                <p>Cactus Flower</p>
+                                <p>Citrus</p>
                             </a>
-                            <h6>$10.99</h6>
+                            <h6>Rs.2150</h6>
                         </div>
                     </div>
                 </div>
@@ -768,13 +757,13 @@
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>Garden designers across the country forecast ideas shaping the gardening world in 2018</h5>
+                                <h5> Climate Smart Irrigated Agriculture Project (CSIAP)</h5>
                             </a>
                             <div class="post-meta">
                                 <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2018</a>
-                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Alan Jackson</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Amal silva</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">This project has introduced micro-irrigation systems to 3,787 farmers at a cost of 589 million rupees</p>
                         </div>
                     </div>
                 </div>
@@ -787,13 +776,13 @@
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>2018 Midwest Tree and Shrub Conference: Resilient Plants for a Lasting Landscape</h5>
+                                <h5>Government Investment in Home Gardening: In March 2024 </h5>
                             </a>
                             <div class="post-meta">
-                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2018</a>
-                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Christina Aguilera</a>
+                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 20 Jun 2024</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Vijitha Perera</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">the Sri Lankan government allocated over 750,000 USD (232 million rupees) to support home gardening projects</p>
                         </div>
                     </div>
                 </div>
@@ -806,13 +795,13 @@
                         </div>
                         <div class="post-content">
                             <a href="single-post.html" class="post-title">
-                                <h5>The summer coming up, it’s time for both us and the flowers to soak up the sunshine</h5>
+                                <h5>Media Promotion of Sustainable Agriculture </h5>
                             </a>
                             <div class="post-meta">
-                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 19 Jun 2018</a>
-                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Mason Jenkins</a>
+                                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> 19 Jun 2024</a>
+                                <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Manel neela</a>
                             </div>
-                            <p class="post-excerpt">Integer luctus diam ac scerisque consectetur. Vimus ottawas nec lacus sit amet. Aenean interdus mid vitae.</p>
+                            <p class="post-excerpt">Haritha TV, launched in March,exclusive television channel dedicated to promoting sustainable agriculture</p>
                         </div>
                     </div>
                 </div>
@@ -835,10 +824,17 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="subscribe-form">
-                        <form action="#" method="get">
-                            <input type="email" name="subscribe-email" id="subscribeEmail" placeholder="Enter your email">
+                        <!-- Update the form action to POST and use the route we created -->
+                        <form action="{{ route('subscribe') }}" method="POST">
+                            @csrf <!-- CSRF Token for form submission -->
+                            <input type="email" name="email" id="subscribeEmail" placeholder="Enter your email">
                             <button type="submit" class="btn alazea-btn">SUBSCRIBE</button>
                         </form>
+                        @if(session('success'))
+                            <div class="alert alert-success mt-3">
+                                {{ session('success') }}
+                            </div>
+                        @endif
                     </div>
                 </div>
             </div>
@@ -915,7 +911,7 @@
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget">
                             <div class="footer-logo mb-30">
-                                <a href="#"><img src="img/core-img/logo.png" alt=""></a>
+                                <a href="#"><img src="img/core-img/leaf.png" alt=""></a>
                             </div>
                             <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
                             <div class="social-info">
@@ -965,7 +961,7 @@
                                 </div>
                                 <div class="product-info">
                                     <a href="shop-details.html">Cactus Flower</a>
-                                    <p>$10.99</p>
+                                    <p>Rs,1000</p>
                                 </div>
                             </div>
 
@@ -976,7 +972,7 @@
                                 </div>
                                 <div class="product-info">
                                     <a href="shop-details.html">Tulip Flower</a>
-                                    <p>$11.99</p>
+                                    <p>rs.2000</p>
                                 </div>
                             </div>
                         </div>
@@ -990,9 +986,9 @@
                             </div>
 
                             <div class="contact-information">
-                                <p><span>Address:</span> 505 Silk Rd, New York</p>
-                                <p><span>Phone:</span> +1 234 122 122</p>
-                                <p><span>Email:</span> info.deercreative@gmail.com</p>
+                                <p><span>Address:</span> Bandaragama</p>
+                                <p><span>Phone:</span> +777 122 122</p>
+                                <p><span>Email:</span> vijithaplant@gmail.com</p>
                                 <p><span>Open hours:</span> Mon - Sun: 8 AM to 9 PM</p>
                                 <p><span>Happy hours:</span> Sat: 2 PM to 4 PM</p>
                             </div>
@@ -1013,7 +1009,7 @@
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
                             <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
                         </div>
@@ -1051,5 +1047,17 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Active js -->
     <script src="home2/js/active.js"></script>
 </body>
+
+<script>
+    var botmanWidget = {
+        title: 'Vijitha Plant Nursery Chatbot', // Set your custom header text here
+
+        aboutText: 'Welcome to Vijitha Plants',
+        introMessage: "Welcome! say Hi to start the conversation"
+
+
+    };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js"></script>
 
 </html>
