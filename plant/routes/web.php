@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 
 /*Route::get('/', function () {
@@ -26,4 +27,8 @@ Route::middleware([
     })->name('dashboard');
 });
 
-route::get('/redirect',[HomeController::class,'redirect']);
+route::get('/redirect', [HomeController::class, 'redirect']);
+
+route::get('/order', [AdminController::class, 'order']);
+
+route::get('/delivered/{id}', [AdminController::class, 'delivered']);
