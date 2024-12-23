@@ -40,8 +40,8 @@
                         <div class="top-header-content d-flex align-items-center justify-content-between">
                             <!-- Top Header Content -->
                             <div class="top-header-meta">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email: infodeercreative@gmail.com</span></a>
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +1 234 122 122</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> <span>Email:vijithaplantnursery@gmail.com</span></a>
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122"><i class="fa fa-phone" aria-hidden="true"></i> <span>Call Us: +98 714 122 122</span></a>
                             </div>
 
                             <!-- Top Header Content -->
@@ -49,13 +49,9 @@
                                 <!-- Language Dropdown -->
 
                                 <!-- Login -->
-                                <div class="login">
-                                    <a href="#"><i class="fa fa-user" aria-hidden="true"></i> <span>Login</span></a>
-                                </div>
+
                                 <!-- Cart -->
-                                <div class="cart">
-                                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>Cart <span class="cart-quantity">(1)</span></span></a>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -89,38 +85,34 @@
                             <!-- Navbar Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="{{ route('landing') }}">Home</li>
+                                    <li><a href="{{ url('/about') }}">About</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="{{ url('/forum') }}">Forum</a></li>
+                                            <li><a href="{{ url('/chatify') }}">chat</a></li>
                                             <li><a href="{{ route('shop') }}">Shop</a>
                                                 <ul class="dropdown">
                                                     <li><a href="{{ route('shop') }}">Shop</a></li>
-                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                    <li><a href="cart.html">Shopping Cart</a></li>
-                                                    <li><a href="checkout.html">Checkout</a></li>
+                                                    <li><a href="{{ route('shop') }}">Shop Details</a></li>
+                                                    <li><a href="{{ route('shop') }}">Shopping Cart</a></li>
+                                                    <li><a href="{{ route('shop') }}">Checkout</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="portfolio.html">Portfolio</a>
+                                            
+                                            <li><a href="{{ url('/blog') }}">Blog</a>
                                                 <ul class="dropdown">
-                                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                                    <li><a href="single-portfolio.html">Portfolio Details</a></li>
+                                                    <li><a href="{{ url('/blog') }}">Blog</a></li>
+                                                    <li><a href="{{ url('/blog') }}">Blog Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="blog.html">Blog</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-post.html">Blog Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="{{ url('/forum') }}">Forum</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{ route('shop') }}">Shop</a></li>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{ url('/chatify') }}">Chat</a></li>
+                                    <li><a href="{{ url('/forum') }}">Discussion forum</a></li>
+
                                 </ul>
 
                                 <!-- Search Icon -->
@@ -726,7 +718,7 @@
                 </div>
 
                 <div class="col-12 text-center">
-                    <a href="#" class="btn alazea-btn">View All</a>
+                    <a href="{{ route('shop') }} " class="btn alazea-btn">Shop Now</a>
                 </div>
 
             </div>
@@ -913,7 +905,7 @@
                             <div class="footer-logo mb-30">
                                 <a href="#"><img src="img/core-img/leaf.png" alt=""></a>
                             </div>
-                            <p>Lorem ipsum dolor sit samet, consectetur adipiscing elit. India situs atione mantor</p>
+                            <p>The Sri Lanka's Number one Plant station-Vijitha Plants </p>
                             <div class="social-info">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -933,15 +925,15 @@
                             <nav class="widget-nav">
                                 <ul>
                                     <li><a href="#">Purchase</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                    <li><a href="#">Payment</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Shop</a></li>
                                     <li><a href="#">News</a></li>
                                     <li><a href="#">Return</a></li>
                                     <li><a href="#">Advertise</a></li>
                                     <li><a href="#">Shipping</a></li>
-                                    <li><a href="#">Career</a></li>
-                                    <li><a href="#">Orders</a></li>
-                                    <li><a href="#">Policities</a></li>
+                                    <li><a href="#">Payment</a></li>
+                                    <li><a href="#">Chat</a></li>
+                                    <li><a href="#">Discussion</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -960,8 +952,8 @@
                                     <a href="shop-details.html"><img src="img/bg-img/4.jpg" alt=""></a>
                                 </div>
                                 <div class="product-info">
-                                    <a href="shop-details.html">Cactus Flower</a>
-                                    <p>Rs,1000</p>
+                                    <a href="shop-details.html">Orchid Flower</a>
+                                    <p>Rs.1000</p>
                                 </div>
                             </div>
 
@@ -972,7 +964,7 @@
                                 </div>
                                 <div class="product-info">
                                     <a href="shop-details.html">Tulip Flower</a>
-                                    <p>rs.2000</p>
+                                    <p>Rs.2000</p>
                                 </div>
                             </div>
                         </div>
@@ -1009,7 +1001,7 @@
                     <div class="col-12 col-md-6">
                         <div class="copywrite-text">
                             <p>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> 
+Copyright &copy;<script>document.write(new Date().getFullYear());</script>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 </p>
                         </div>
@@ -1022,7 +1014,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script>
                                     <li><a href="#">Home</a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="#">Service</a></li>
-                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Chat</a></li>
                                     <li><a href="#">Blog</a></li>
                                     <li><a href="#">Contact</a></li>
                                 </ul>

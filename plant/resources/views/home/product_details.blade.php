@@ -30,6 +30,9 @@
             border: none;
             border-radius: 5px;
             transition: all 0.3s ease;
+            margin-left: 10px;
+
+
          }
 
          .add-to-cart-btn:hover {
@@ -40,8 +43,8 @@
 
          .quantity-input {
             width: 100%;
-            padding: 8px;
-            border: 2px solid #ddd;
+            padding: 10px;
+            border: 2px solid #bbf3b9;
             border-radius: 5px;
             font-size: 16px;
             transition: border-color 0.3s;

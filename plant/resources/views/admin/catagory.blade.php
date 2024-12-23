@@ -8,7 +8,8 @@
             margin: 0;
             padding: 0;
             font-family: 'Arial', sans-serif;
-            background: #f4f4f4;
+            background: #121212;
+            color: #ffffff;
         }
 
         .form-card {
@@ -17,49 +18,16 @@
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .form-card .card-background {
-            background: url('img/bg-img/h24.jpg') no-repeat center center;
-            background-size: cover;
-            position: relative;
+            background: #1e1e1e;
             padding: 20px;
-        }
-
-        .form-card .card-background::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 1;
-        }
-
-        .form-card .form-area {
-            position: relative;
-            z-index: 2;
         }
 
         .form-card h2 {
             text-align: center;
-            font-size: 40px;
+            font-size: 30px;
             color: #fff;
             margin-bottom: 20px;
             text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-        }
-
-        .div_center {
-            text-align: center;
-            padding-top: 40px;
-        }
-
-        .h2_font {
-            font-size: 30px;
-            padding-bottom: 30px;
-            font-weight: bold;
-            color: #333;
         }
 
         .input_color {
@@ -68,8 +36,10 @@
             font-size: 14px;
             width: 100%;
             margin-bottom: 20px;
-            border: 1px solid #ddd;
+            border: 1px solid #444;
             border-radius: 5px;
+            background: #333;
+            color: #fff;
         }
 
         .input_color:focus {
@@ -105,13 +75,20 @@
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
         }
 
+        .table-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+
         table {
-            width: 1000px;
-            margin-top: 30px;
-            margin-left: 250px;
-            background-color: #fff;
+            width: 80%;
+            margin: 0 auto;
+            background-color: #1e1e1e;
             border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border-collapse: collapse;
         }
 
         th {
@@ -124,15 +101,16 @@
         td {
             padding: 12px;
             text-align: center;
-            color: #333;
+            color: #ccc;
+            border-bottom: 1px solid #444;
         }
 
         tr:nth-child(even) {
-            background-color: #f2f2f2;
+            background-color: #292929;
         }
 
         tr:hover {
-            background-color: #ddd;
+            background-color: #333;
         }
 
         .alert {
@@ -156,21 +134,16 @@
             </div>
           @endif
 
-          <div class="div_center">
-            <h2 class="h2_font">Add Category</h2>
+          <div class="form-card">
+            <h2>Add Category</h2>
+            <form action="{{url('./add_catagory')}}" method="POST">
+              @csrf
+              <input class="input_color" type="text" name="catagory" placeholder="Write category name" required>
+              <input type="submit" class="btn-submit" name="submit" value="Add Category">
+            </form>
+          </div>
 
-            <div class="form-card">
-              <div class="card-background">
-                <div class="form-area">
-                  <form action="{{url('./add_catagory')}}" method="POST">
-                    @csrf
-                    <input class="input_color" type="text" name="catagory" placeholder="Write category name" required>
-                    <input type="submit" class="btn-submit" name="submit" value="Add Category">
-                  </form>
-                </div>
-              </div>
-            </div>
-
+          <div class="table-container">
             <table>
               <tr>
                 <th>Category Name</th>

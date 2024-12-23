@@ -1,3 +1,6 @@
+
+
+
 <div class="main-panel">
     <div class="content-wrapper">
       <div class="row">
@@ -9,19 +12,41 @@
                   <img src="assets/images/dashboard/Group126@2x.png" class="gradient-corona-img img-fluid" alt="">
                 </div>
                 <div class="col-5 col-sm-7 col-xl-8 p-0">
-                  <h4 class="mb-1 mb-sm-0">Want to add new product?</h4>
+                  <h4 class="mb-1 mb-sm-0">Want to add new Discusiion Topic?</h4>
                   <p class="mb-0 font-weight-normal d-none d-sm-block">Add it</p>
                 </div>
                 <div class="col-3 col-sm-2 col-xl-2 pl-0 text-center">
                   <span>
-                    <a href="https://www.bootstrapdash.com/product/corona-admin-template/" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">ADD PRODUCT</a>
+                    <a href="{{ url('/discussion/create') }}" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">Start Topic</a>
                   </span>
                 </div>
+
+
+                
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div class="row">
         <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
           <div class="card">
