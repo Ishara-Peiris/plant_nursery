@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <title>stripe</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="home/css/bootstrap.css" />
       <!-- font awesome style -->
@@ -27,14 +27,14 @@
 
 <div class="hero_area">
          <!-- header section strats -->
-          
-         @include('home.header')  
+
+         @include('home.header')
 
 <div class="container">
 
     <h1>Pay Using Your Card - Total Amount ${{$totalprice}}</h1>
 
-    
+
 
     <div class="row">
 
@@ -50,7 +50,7 @@
 
                 <div class="panel-body">
 
-    
+
 
                     @if (Session::has('success'))
 
@@ -64,15 +64,15 @@
 
                     @endif
 
-    
 
-                    <form 
 
-                            role="form" 
+                    <form
 
-                            action="{{ route('stripe.post', $totalprice) }}" 
+                            role="form"
 
-                            method="post" 
+                            action="{{ route('stripe.post', $totalprice) }}"
+
+                            method="post"
 
                             class="require-validation"
 
@@ -84,7 +84,7 @@
 
                         @csrf
 
-    
+
 
                         <div class='form-row row'>
 
@@ -98,7 +98,7 @@
 
                         </div>
 
-    
+
 
                         <div class='form-row row'>
 
@@ -114,7 +114,7 @@
 
                         </div>
 
-    
+
 
                         <div class='form-row row'>
 
@@ -150,7 +150,7 @@
 
                         </div>
 
-    
+
 
                         <div class='form-row row'>
 
@@ -164,7 +164,7 @@
 
                         </div>
 
-    
+
 
                         <div class="row">
 
@@ -176,39 +176,39 @@
 
                         </div>
 
-                            
+
 
                     </form>
 
                 </div>
 
-            </div>        
+            </div>
 
         </div>
 
     </div>
 
-        
+
 
 </div>
 
-    
+
 
 </body>
 
-    
+
 
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 
-    
+
 
 <script type="text/javascript">
 
-  
+
 
 $(function() {
 
-  
+
 
     /*------------------------------------------
 
@@ -220,11 +220,11 @@ $(function() {
 
     --------------------------------------------*/
 
-    
+
 
     var $form = $(".require-validation");
 
-     
+
 
     $('form.require-validation').bind('submit', function(e) {
 
@@ -244,7 +244,7 @@ $(function() {
 
         $errorMessage.addClass('hide');
 
-    
+
 
         $('.has-error').removeClass('has-error');
 
@@ -264,7 +264,7 @@ $(function() {
 
         });
 
-     
+
 
         if (!$form.data('cc-on-file')) {
 
@@ -286,11 +286,11 @@ $(function() {
 
         }
 
-    
+
 
     });
 
-      
+
 
     /*------------------------------------------
 
@@ -320,7 +320,7 @@ $(function() {
 
             var token = response['id'];
 
-                 
+
 
             $form.find('input[type=text]').empty();
 
@@ -332,7 +332,7 @@ $(function() {
 
     }
 
-     
+
 
 });
 
