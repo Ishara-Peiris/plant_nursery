@@ -10,9 +10,17 @@ use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
 
+
+use Usamamuneerchaudhary\Commentify\Traits\HasUserAvatar;
+
+
+
+
+
 class User extends Authenticatable
 {
     use HasApiTokens;
+    use HasUserAvatar;
 
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory;
@@ -66,4 +74,13 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+
+
+
+    public function avatar()
+{
+    return $this->avatar ? asset('storage/' . $this->avatar) : asset('images/default-avatar.png');
+}
+
 }

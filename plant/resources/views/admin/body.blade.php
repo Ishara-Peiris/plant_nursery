@@ -1,3 +1,6 @@
+
+
+
 <div class="main-panel">
     <div class="content-wrapper">
       <div class="row">
@@ -9,19 +12,41 @@
                   <img src="assets/images/dashboard/Group126@2x.png" class="gradient-corona-img img-fluid" alt="">
                 </div>
                 <div class="col-5 col-sm-7 col-xl-8 p-0">
-                  <h4 class="mb-1 mb-sm-0">Want even more features?</h4>
-                  <p class="mb-0 font-weight-normal d-none d-sm-block">Check out our Pro version with 5 unique layouts!</p>
+                  <h4 class="mb-1 mb-sm-0">Want to add new Discusiion Topic?</h4>
+                  <p class="mb-0 font-weight-normal d-none d-sm-block">Add it</p>
                 </div>
                 <div class="col-3 col-sm-2 col-xl-2 pl-0 text-center">
                   <span>
-                    <a href="https://www.bootstrapdash.com/product/corona-admin-template/" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">Upgrade to PRO</a>
+                    <a href="{{ url('/discussion/create') }}" target="_blank" class="btn btn-outline-light btn-rounded get-started-btn">Start Topic</a>
                   </span>
                 </div>
+
+
+                
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <div class="row">
         <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
           <div class="card">
@@ -69,7 +94,7 @@
               <div class="row">
                 <div class="col-9">
                   <div class="d-flex align-items-center align-self-start">
-                    <h3 class="mb-0">$12.34</h3>
+                    <h3 class="mb-0">Rs.12000</h3>
                     <p class="text-danger ml-2 mb-0 font-weight-medium">-2.4%</p>
                   </div>
                 </div>
@@ -89,7 +114,7 @@
               <div class="row">
                 <div class="col-9">
                   <div class="d-flex align-items-center align-self-start">
-                    <h3 class="mb-0">$31.53</h3>
+                    <h3 class="mb-0">Rs.3153</h3>
                     <p class="text-success ml-2 mb-0 font-weight-medium">+3.5%</p>
                   </div>
                 </div>
@@ -116,7 +141,7 @@
                   <p class="text-muted mb-0">07 Jan 2019, 09:12AM</p>
                 </div>
                 <div class="align-self-center flex-grow text-right text-md-center text-xl-right py-md-2 py-xl-0">
-                  <h6 class="font-weight-bold mb-0">$236</h6>
+                  <h6 class="font-weight-bold mb-0">rs.236</h6>
                 </div>
               </div>
               <div class="bg-gray-dark d-flex d-md-block d-xl-flex flex-row py-3 px-4 px-md-3 px-xl-4 rounded mt-3">
@@ -125,7 +150,7 @@
                   <p class="text-muted mb-0">07 Jan 2019, 09:12AM</p>
                 </div>
                 <div class="align-self-center flex-grow text-right text-md-center text-xl-right py-md-2 py-xl-0">
-                  <h6 class="font-weight-bold mb-0">$593</h6>
+                  <h6 class="font-weight-bold mb-0">rs593</h6>
                 </div>
               </div>
             </div>
@@ -135,8 +160,8 @@
           <div class="card">
             <div class="card-body">
               <div class="d-flex flex-row justify-content-between">
-                <h4 class="card-title mb-1">Open Projects</h4>
-                <p class="text-muted mb-1">Your data status</p>
+                <h4 class="card-title mb-1">Open New Garden</h4>
+                <p class="text-muted mb-1">Your current status</p>
               </div>
               <div class="row">
                 <div class="col-12">
@@ -149,8 +174,8 @@
                       </div>
                       <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
-                          <h6 class="preview-subject">Admin dashboard design</h6>
-                          <p class="text-muted mb-0">Broadcast web app mockup</p>
+                          <h6 class="preview-subject">Admin dashboard </h6>
+                          <p class="text-muted mb-0">analytics</p>
                         </div>
                         <div class="mr-auto text-sm-right pt-2 pt-sm-0">
                           <p class="text-muted">15 minutes ago</p>
@@ -166,8 +191,8 @@
                       </div>
                       <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
-                          <h6 class="preview-subject">Wordpress Development</h6>
-                          <p class="text-muted mb-0">Upload new design</p>
+                          <h6 class="preview-subject">new arrival</h6>
+                          <p class="text-muted mb-0">Upload new plant</p>
                         </div>
                         <div class="mr-auto text-sm-right pt-2 pt-sm-0">
                           <p class="text-muted">1 hour ago</p>
@@ -183,8 +208,8 @@
                       </div>
                       <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
-                          <h6 class="preview-subject">Project meeting</h6>
-                          <p class="text-muted mb-0">New project discussion</p>
+                          <h6 class="preview-subject">Order Plants</h6>
+                          <p class="text-muted mb-0">New Order</p>
                         </div>
                         <div class="mr-auto text-sm-right pt-2 pt-sm-0">
                           <p class="text-muted">35 minutes ago</p>
@@ -200,8 +225,8 @@
                       </div>
                       <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
-                          <h6 class="preview-subject">Broadcast Mail</h6>
-                          <p class="text-muted mb-0">Sent release details to team</p>
+                          <h6 class="preview-subject">Go to chat</h6>
+                          <p class="text-muted mb-0">customer feedback</p>
                         </div>
                         <div class="mr-auto text-sm-right pt-2 pt-sm-0">
                           <p class="text-muted">55 minutes ago</p>
@@ -217,8 +242,8 @@
                       </div>
                       <div class="preview-item-content d-sm-flex flex-grow">
                         <div class="flex-grow">
-                          <h6 class="preview-subject">UI Design</h6>
-                          <p class="text-muted mb-0">New application planning</p>
+                          <h6 class="preview-subject">Go to discussion forum</h6>
+                          <p class="text-muted mb-0">New post planning</p>
                         </div>
                         <div class="mr-auto text-sm-right pt-2 pt-sm-0">
                           <p class="text-muted">50 minutes ago</p>
@@ -241,7 +266,7 @@
               <div class="row">
                 <div class="col-8 col-sm-12 col-xl-8 my-auto">
                   <div class="d-flex d-sm-block d-md-flex align-items-center">
-                    <h2 class="mb-0">$32123</h2>
+                    <h2 class="mb-0">Rs.32123</h2>
                     <p class="text-success ml-2 mb-0 font-weight-medium">+3.5%</p>
                   </div>
                   <h6 class="text-muted font-weight-normal">11.38% Since last month</h6>
@@ -260,7 +285,7 @@
               <div class="row">
                 <div class="col-8 col-sm-12 col-xl-8 my-auto">
                   <div class="d-flex d-sm-block d-md-flex align-items-center">
-                    <h2 class="mb-0">$45850</h2>
+                    <h2 class="mb-0">Rs.45850</h2>
                     <p class="text-success ml-2 mb-0 font-weight-medium">+8.3%</p>
                   </div>
                   <h6 class="text-muted font-weight-normal"> 9.61% Since last month</h6>
@@ -331,7 +356,7 @@
                         <span class="pl-2">Henry Klein</span>
                       </td>
                       <td> 02312 </td>
-                      <td> $14,500 </td>
+                      <td> Rs.14,500 </td>
                       <td> Dashboard </td>
                       <td> Credit card </td>
                       <td> 04 Dec 2019 </td>
@@ -352,7 +377,7 @@
                         <span class="pl-2">Estella Bryan</span>
                       </td>
                       <td> 02312 </td>
-                      <td> $14,500 </td>
+                      <td> Rs.14,500 </td>
                       <td> Website </td>
                       <td> Cash on delivered </td>
                       <td> 04 Dec 2019 </td>

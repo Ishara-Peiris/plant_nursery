@@ -8,7 +8,7 @@
              <div class="col-md-6 ml-auto">
                 <div class="heading_container remove_line_bt">
                    <h2>
-                      #NewArrivals
+                      NewArrivals
                    </h2>
                 </div>
                 <p style="margin-top: 20px;margin-bottom: 30px;">
